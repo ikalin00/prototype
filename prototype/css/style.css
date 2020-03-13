@@ -1,0 +1,245 @@
+#wrapper 
+{font-family: tahoma;}
+
+.container
+{
+width: 100%;
+max-width: 1280px;
+margin:0 auto;
+}
+#subheader{
+    width:100%;
+    height:30px;
+    background:#0a2393;     /*najgornjiji header*/
+    color: #fff;
+    margin-top: -15px;
+}
+#subheader p {
+    float:left;
+    margin-top:7px;
+
+}
+#subheader a{
+    float:right;
+    line-height:30px;
+    color:#fff;
+    text-decoration:none;
+    margin-left:30px;
+}
+
+
+#main-header{
+    width:100%;
+    height:100px;
+    background:#0a2393;    /*svojstva glavnog headera*/
+    float:left;
+    margin-top:-15px;
+}
+#logo{
+    width:250px;
+    margin-top:10px;
+    float:left;
+}
+#prvi{
+    color:yellow;               /*uredivanje prvog o drugog elementa loga*/
+    font-size:45px;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:cursive;
+}
+#drugi{
+    color:yellow;
+    font-size:30px;
+    font-weight:bold;
+    font-family:cursive;
+}
+
+#search{
+    width:50px;
+    float:left;
+    padding:20px;                       /* uredivanje trake za pretrazivanje*/
+    margin-left:50px
+}
+.search-area{
+    width:650px;
+    height:50px;
+    background: #fff;
+    border:none;
+    border-radius:10px;
+    float:left;
+    padding-left:15px;
+}
+.search-btn{
+    width: 100px;
+    height:50px;
+    border-radius: 10px;
+    border: none;
+    color:#fff;                             /*uredivanje dugme trazi*/
+    background: brown;
+    margin-left: 550px;
+    margin-top:-50px;
+
+}
+
+#user-menu{
+    
+    margin-top:30px;
+    float:left;
+    
+    
+    
+}
+                                       /*uredivanje kosare i prijave*/
+
+#navigation{
+    width: 100%;
+    height:35px;
+    background:#0a2393;
+    float:left;
+    box-shadow:10px 14px 50px 2px #0a2393;
+}
+nav{
+width:1280px;
+margin:0 auto;
+}
+                                              /*mjenjanje svojstva i uređivanje navigacijske trake*/
+nav a{
+    margin-left:35px;
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#000;
+    transition:all .7s ease;
+}
+
+#slider{
+    width:100%;
+    max-width:100%;
+    float:left;
+}
+
+#heading-block{
+    width:100%;
+    height:auto;
+    float:left;
+    color:#0a2393;
+    font-size:22px;
+}
+                                                   /*blok za kategorije*/
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid #0a2393;
+    padding-left: 10px;
+
+}
+
+.catbox{
+    width:190px;
+    height:190px;
+    float:left;
+    overflow: hidden;
+    position: relative;
+    margin:0 20 30;
+   
+}
+
+.catbox span{
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    display:block;
+    bottom:30px;
+    position:absolute;
+    text-align: center;
+}
+
+.catbox img{
+    max-width:100%;
+    transition: all .5s ease;
+}
+.catbox:hover img{
+    transform: scale(1.3,1.3);
+    transition: all .5s ease;
+}
+                                             /*blok za proizvode*/
+.pro-box{
+    width:235px;
+    height:300px;
+    overflow:hidden;
+    margin:0 10 40 50;
+    position: relative;
+    float: left;
+}
+
+.pro-box>img{
+    max-width: 100%;
+}
+
+.pro-trans{
+    background:rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.pro-box:hover .pro-trans{
+    opacity:1;
+    transition: all .5s ease;
+}
+
+.pro-feature{
+    text-align: center;                 /*text unutar slika*/
+    transition:all .5s ease;
+    
+}
+.pro-feature p{
+    color: red;
+    font-family:verdana;
+}
+.pro-box:hoover .pro-feature{
+    margin-top: 250px;
+    transition:all .5s ease;
+}
+
+.pro-feature input{
+    width:150px;
+    height: 25px;
+    font-size: 17px;
+}
+
+.offer{
+    width:400px;                   /*kuponi*/
+    float: left;
+    margin-right: 10px;
+}
+
+.offer img{
+    width:100%;
+   
+}
+
+#footer{
+    width:100%;
+    height:auto;
+    background: grey;      /*podnožje*/
+    float:left;
+}
+
+.footer-sub{
+    width:25%;
+
+}
+
+.footer-sub2 ul li a:hover{
+    color:#000;
+    text-decoration: underline;
+}

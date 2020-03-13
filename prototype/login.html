@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Login Form</title></head>
+    <body>
+
+        <h1>Login Form</h1>
+        <h2>
+            <form name="login" onsubmit="return validation()">
+                Username :<input type="text" name="uname" value=""><br/><br/>
+                Password :<input type="password" name="pwd" value=""><br/><br/>
+                <input type="submit" name="btn" value="submit"><hr/>
+                
+            </form>
+
+
+        </h2>
+
+        <script type="text/javascript">
+        function validation(){
+            var uname = document.login.uname.value;
+            var pwd = document.login.pwd.value;
+
+            if(uname=="" || pwd=="" ){
+                alert("Oba polja moraju biti popunjena");
+                return;
+            }
+
+            if(pwd.length<6 || pwd.length>12){
+                alert("lozinka mora imati od 6 do 12 znamenki");
+                return;
+            }
+
+            else{
+                alert("uspjesno ste logirani");
+            }
+
+        }
+            
+        </script>
+
+
+    </body>
+
+
+
+</html>
