@@ -1,0 +1,114 @@
+svg {
+
+    width:1600px;
+    height: 800px;
+    border: green;
+    border-style: solid;
+    background-color: honeydew;
+    display: block;
+    margin: auto; 
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+rect {
+
+    fill: rgb(36, 36, 36);
+    width: 1600px;
+    height: 360px;
+    fill-opacity:0.7;
+
+}
+
+line {
+
+    width: 1600px;
+    stroke-width: 16px;
+    stroke: rgb(197, 186, 163);
+
+}
+
+.pločnik {
+
+    width: 1600px;
+    height: 120px;
+    fill: rgb(129, 127, 127);
+
+}
+
+.parking {
+    
+    stroke-width: 7;
+    stroke: white;
+
+}
+
+.cesta {
+
+    stroke-width: 10;
+    stroke: white;
+
+}
+
+.senzor {
+
+    stroke-width: 3;
+    stroke: black;
+    fill: rgb(39, 241, 39);
+    opacity: 0.6;
+
+}
+
+.broj-senzora {
+    text-anchor: middle;
+    fill: white;
+    font-size: small;
+    font-family: Arial;
+}
+
+.rampa {
+    width: 28px;
+    height: 28px;
+    fill: orange;
+}
+
+.linija-rampe{
+    stroke-width: 5px;
+    stroke: orange
+
+}
+
+.forme{
+    margin: 50px 0 0 600px
+    
+    
+}
+
+.forme select{
+    background:#0563af;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    
+
+}
+
+.rezervacija{
+    display: none;
+}
+
+.forme #ukloni{
+    margin-left: 100px;
+}
+
+.Poništi{
+    display: none;
+}
